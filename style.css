@@ -203,7 +203,8 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    /*color: rgba(0, 0, 0, .5);*/
+    color: #808080;
 }
 
 .d-bloc .panel button:hover,
@@ -761,7 +762,7 @@ h4 {
 
 .white {
     /*color: #FFFFFF!important;*/
-    color: #545454;
+    color: #8A8A8A;
     text-align:center;
 }
 
@@ -794,7 +795,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #151B2D;
 }
 
 .bgc-atomic-tangerine {
@@ -804,7 +805,10 @@ h4 {
 .tc-white {
     display:flex;
     justify-content: center; /*ajouté*/
-    color: #F3976C!important
+    /*color: #F3976C!important;*/
+    color: rgba(0, 0, 0, .25);
+
+    
 }
 
 .tc-white p{
@@ -822,7 +826,9 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    /*color: #FFFFFF!important;*/
+    color:#545454;
+    
 }
 
 .ltc-white:hover {
