@@ -101,7 +101,9 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    /*color: rgba(255, 255, 255, .7);*/
+    color: #FFFFFF!important;
+
 }
 
 .d-bloc button:hover {
@@ -727,6 +729,12 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
+.so{
+    
+    align-items:center;
+    margin-left: 400px !important;
+
+}
 
 h2 {
     font-size: 22px;
@@ -804,10 +812,11 @@ h4 {
 .tc-white {
     display:flex;
     justify-content: center; /*ajouté*/
-    color: #3D3D3D!important;
-    
+    color: #BABABA!important;   
+}
 
-    
+.pc{
+    color: #000000!important;
 }
 
 .tc-white p{
