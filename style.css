@@ -414,6 +414,7 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+    
 }
 
 .nav > li > .dropdown a {
@@ -674,6 +675,8 @@ a {
    width:100%;
 }
 
+
+
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -715,9 +718,14 @@ p {
     font-weight: 700;
 }
 
+.row row-no-gutters social{
+    margin-left: 200px;
+}
+
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    max-width: 200px;
+    /*margin: auto auto auto auto;*/
+    margin-left:200px;
 }
 
 h2 {
@@ -752,7 +760,8 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    /*color: #FFFFFF!important;*/
+    color: #545454;
     text-align:center;
 }
 
@@ -795,8 +804,7 @@ h4 {
 .tc-white {
     display:flex;
     justify-content: center; /*ajouté*/
-    color: #F3976C!important;
-    filter:contrast(1); /* ajouté*/
+    color: #F3976C!important
 }
 
 .tc-white p{
@@ -805,12 +813,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #00003D!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #00003D!important;
 }
 
 .ltc-white {
@@ -835,7 +843,7 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+   background-image: url("img/dots-bg.png");
     
 }
 
@@ -874,13 +882,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -898,10 +906,10 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
+    /*.bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }
+    }*/
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -910,9 +918,9 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
+       /* padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }
+    }*/
 }
 
 @media (max-width: 767px) {
@@ -1052,6 +1060,8 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+    
 }
 
 @media (max-width: 400px) {
@@ -1070,5 +1080,15 @@ h4 {
 .copyright p{
     text-align:center;
     font-size:14px;
-
 }
+}
+
+.container bloc-sm{
+    display:flex;
+    justify-content: center;
+}
+
+.footer{
+    text-align:center;
+}
+
